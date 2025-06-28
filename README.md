@@ -6,7 +6,7 @@ A responsive web app to check codeforces user stats in a clean & organized layou
 
 - Search any Codeforces handle
 - View user details like:
-  - Current, max, and min rating
+  - Current, max & min rating
   - Rank, number of contests & problem count
   - Rating history graph
 - See recent submissions with problem details
