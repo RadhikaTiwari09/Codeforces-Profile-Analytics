@@ -33,20 +33,26 @@ Data is fetched from the public [Codeforces API](https://codeforces.com/apiHelp)
 
 2. Open `index.html` in your browser.
 
-> I will insert a live link here too, once I host it on render/vercel.
+https://cf-analytics.netlify.app
 
 ## Folder structure
 
 ```
 codeforces-profile-analytics/
-├── public/
-│   └── index.html
+├── assets/images
+│   └── favicon.ico
+├── styles/
+│   └── common.css
 │   └── style.css
+│   └── dark.css
+│   └── space.css
+├── scripts/
+│   └── download.js
+│   └── render_chart.js
+│   └── render_heatmap.js
+│   └── theme.js
 │   └── script.js
-├── assets/
-│   └── images
-├── server.js
-├── package.json
+├── index.html
 ```
 
 ## Why this exists
