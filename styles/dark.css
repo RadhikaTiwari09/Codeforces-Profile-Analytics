@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+  color: #e0e0e0;
+}
+
+.container {
+  background: #121212;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}
+
+label[for="themeSelect"] {
+  color: #a0cfff;
+}
+
+input {
+  border: 1.5px solid #3a3a3a;
+  background-color: #292929;
+  color: #e0e0e0;
+}
+
+input:focus {
+  border-color: #3f9cff;
+  box-shadow: 0 0 8px #3f9cff88;
+}
+
+button {
+  background-color: #3f9cff;
+  color: #fff;
+  box-shadow: 0 4px 12px #3f9cffaa;
+}
+
+button:hover, button:focus {
+  background-color: #317acc;
+  box-shadow: 0 6px 18px #317acccc;
+}
+
+.card {
+  background-color: #252525;
+  color: #ddd;
+  box-shadow: inset 0 0 8px #1a73e888;
+}
+
+.card h2 {
+  color: #3f9cff;
+}
+
+canvas {
+  background: #1a1a1a;
+  box-shadow: 0 4px 20px rgba(63, 156, 255, 0.4);
+}

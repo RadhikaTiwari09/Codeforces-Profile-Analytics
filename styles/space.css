@@ -1,0 +1,45 @@
+body {
+  background-color: #0b0f1a;
+  color: #d0e7ff;
+}
+
+.container {
+  background: linear-gradient(135deg, #18243b 0%, #0f1a2e 100%);
+  box-shadow: 0 4px 15px rgba(79, 127, 255, 0.6);
+}
+
+label[for="themeSelect"] {
+  color: #a9caff;
+  transition: color 0.3s ease;
+}
+
+input {
+  border: 1px solid #4f7fff;
+  background-color: #24385f;
+  color: #d0e7ff;
+  box-shadow: 0 0 8px #4f7fff44;
+}
+
+button {
+  background-color: #4f7fff;
+  color: #e0e9ff;
+  box-shadow: 0 0 10px #4f7fff88;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #335fcc;
+  box-shadow: 0 0 14px #335fcccc;
+}
+
+.card {
+  background: linear-gradient(135deg, #304d8a, #1e2e5a);
+  color: #d0e7ff;
+  box-shadow: 0 0 12px #4f7fff99;
+  text-align: left;
+}
+
+canvas {
+  background: #18243b;
+  box-shadow: 0 2px 12px rgba(79, 127, 255, 0.5);
+}

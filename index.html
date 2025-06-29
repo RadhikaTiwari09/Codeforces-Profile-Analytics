@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codeforces Insights</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link id="themeStylesheet" rel="stylesheet" href="styles/style.css">
+  <link id="themeStylesheet" rel="stylesheet" href="styles/common.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Codeforces User Insights</h1>
+
+    <div class="theme-selector">
+      <label for="themeSelect">Select Theme: </label>
+      <select id="themeSelect">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="space">Space</option>
+      </select>
+    </div>
+
+    <input type="text" id="handleInput" placeholder="Enter Codeforces Handle" />
+
+    <button onclick="fetchAll()">Get Insights</button>
+
+    <div id="result" class="card"></div>
+
+    <canvas id="ratingChart" style="display:none"></canvas>
+    <canvas id="tagChart" style="display:none"></canvas>
+    <canvas id="difficultyChart" style="display:none"></canvas>
+    <canvas id="languageChart" style="display:none"></canvas>
+    <canvas id="verdictChart" style="display:none"></canvas>
+    <canvas id="tagHeatmapChart" style="display:none;"></canvas>
+
+    <button id="downloadBtn" style="display:none;">Download Card</button>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/render_chart.js"></script>
+  <script src="scripts/render_heatmap.js"></script>
+  <script src="scripts/theme.js"></script>
+  <script src="scripts/download.js"></script>
+</body>
+
+</html>
